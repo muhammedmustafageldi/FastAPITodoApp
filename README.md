@@ -13,13 +13,11 @@ A modern Todo List application developed using the FastAPI framework. The applic
 
 ## Screenshots
 
-### Home Page
+### Login Page
 ![Home Page](https://github.com/muhammedmustafageldi/My-ScreenShots-Files/blob/main/Screnshots/FastAPITodoApp/1.png)
-*Main view of the todo list*
 
-### Add Todo
+### Home Page
 ![Add Todo](https://github.com/muhammedmustafageldi/My-ScreenShots-Files/blob/main/Screnshots/FastAPITodoApp/2.png)
-*Interface for adding new todos*
 
 ### AI Feature
 ![AI Feature](https://github.com/muhammedmustafageldi/My-ScreenShots-Files/blob/main/Screnshots/FastAPITodoApp/3.png)
