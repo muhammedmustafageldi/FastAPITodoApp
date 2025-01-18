@@ -21,3 +21,6 @@ bs4==0.0.2
 alembic==1.13.2
 starlette~=0.38.6
 pydantic~=2.10.5
+requests~=2.32.3
+protobuf~=4.25.5
+langchain-core~=0.2.43

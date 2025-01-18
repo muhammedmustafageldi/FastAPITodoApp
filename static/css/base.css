@@ -1,0 +1,38 @@
+
+body {
+  background: #fafafa;
+  color: #33333a;
+  padding-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #323232;
+}
+
+.main-color {
+  background-color: #278f42;
+}
+
+.strike-through-td {
+    text-decoration: line-through;
+}
+
+.register-link {
+    font-size: 1.1rem;
+    color: #28a745;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.register-link:hover {
+    color: #218838;
+    text-shadow: 0px 0px 5px rgba(40, 167, 69, 0.7);
+}
+
+
+/* h1 {
+  color: red;
+} */
+
+
+
+
