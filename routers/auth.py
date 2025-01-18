@@ -2,9 +2,9 @@ from typing import Annotated
 from fastapi import APIRouter, Depends, HTTPException, Request
 from starlette import status
 from fastapi.security import OAuth2PasswordRequestForm, OAuth2PasswordBearer
-from db.database import SessionLocal
+from ..db.database import SessionLocal
 from model_request import UserRequest, TokenRequest
-from models import User
+from ..models import User
 from sqlalchemy.orm import Session
 from passlib.context import CryptContext
 from jose import jwt, JWTError
@@ -17,7 +17,7 @@ router = APIRouter(
 )
 
 
-templates = Jinja2Templates(directory="templates")
+templates = Jinja2Templates(directory="app/templates")
 
 SECRET_KEY = "Lz1MU9UHjMob9LP7fn5opjRXpKjk8XQmUKYKsd7SlwZmsTCjcQtc9EKa1U6MOd4w"
 ALGORITHM = "HS256"
